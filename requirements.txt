@@ -1,0 +1,14 @@
+# GUI
+PySide6  # Qt-based desktop UI
+
+# Data formats
+PyYAML  # YAML knowledge base and project metadata
+
+# Imaging / OCR
+numpy  # Array operations for image data
+easyocr  # OCR for Japanese/Korean/Chinese/Latin scripts
+opencv-python  # Image loading and preprocessing
+Pillow>=10.0.0  # Basic image utilities and export rendering
+
+# Optional capture
+mss  # Screen capture for potential overlay mode

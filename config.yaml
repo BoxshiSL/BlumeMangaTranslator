@@ -1,0 +1,66 @@
+general:
+  ui_language: en
+  open_last_project: false
+  autosave_enabled: false
+  autosave_interval_min: 5
+  default_resolution_preset: ask
+ocr:
+  selected: easyocr
+  engines:
+    easyocr:
+      downloaded: true
+    paddleocr:
+      downloaded: false
+    tesseract:
+      downloaded: false
+    google_vision:
+      downloaded: true
+      api_key: ''
+      api_valid: false
+      use_api: true
+    azure:
+      downloaded: true
+      api_key: ''
+      endpoint: ''
+      api_valid: false
+      use_api: true
+  use_gpu: true
+translator:
+  selected: google_translate
+  engines:
+    deepl:
+      downloaded: false
+      api_key: ''
+      api_valid: true
+      use_api: false
+    google_translate:
+      downloaded: false
+      api_key: ''
+      api_valid: true
+      use_api: false
+    yandex_translate:
+      api_key: ''
+      api_valid: true
+      use_api: false
+    azure_translate:
+      downloaded: false
+      api_key: ''
+      endpoint: ''
+      api_valid: false
+      use_api: true
+    openai_translate:
+      api_key: ''
+      api_valid: false
+      use_api: true
+    argos:
+      downloaded: false
+    marian_m2m_nllb:
+      downloaded: false
+appearance:
+  scale: 2.0
+  theme: dark
+  fit_to_width: true
+fonts:
+  ui_font_family: null
+  manga_font_family: null
+  sfx_font_family: null

@@ -1,0 +1,23 @@
+.venv/
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.dylib
+*.log
+*.db
+*.sqlite*
+.env
+.env.*
+
+# Large/local assets
+models/
+resources/user_fonts/
+.normalized/
+
+# Build and cache artifacts
+*.egg-info/
+dist/
+build/
